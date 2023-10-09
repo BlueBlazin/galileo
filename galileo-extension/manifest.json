@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Galileo Extension",
+  "version": "1.0",
+  "description": "Open images in Galileo AI image editor.",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "192": "images/galileo-icon-192.png"
+  }
+}
